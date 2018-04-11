@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<title>移动端上传图片</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="container">
+		<input type="file" id="choose" accept="image/*" multiple>
+		<ul class="img-list"></ul>
+		<a id="upload">上传图片</a>
+		<span class="tips">只允许上传jpg、png及gif</span>
+		<div class="pic-list">
+		  你上传的图片(图片有效期为1分钟)：
+		</div>
+	</div>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
